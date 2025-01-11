@@ -1,12 +1,13 @@
 import React from 'react';
-import { View } from 'react-native';
-import One from './src/components/One';
+import MyLogin from './src/components/MyLogin';
+import { SafeAreaView } from 'react-native';
+import "./global.css"
 
 const App = () => {
   return (
-    <View style={{ flex: 1 }}>
-       <One />
-    </View>
+    <SafeAreaView>
+      <MyLogin />
+    </SafeAreaView>
   );
 };
 
