@@ -5,7 +5,7 @@ import "./global.css"
 
 const App = () => {
   return (
-    <SafeAreaView>
+    <SafeAreaView className="flex-1">
       <MyLogin />
     </SafeAreaView>
   );

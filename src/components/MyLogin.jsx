@@ -6,7 +6,7 @@ const MyLogin = () => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
   return (
-    <View className="h-full justify-center items-center bg-gray-900 p-5">
+    <View className="flex-1 justify-center items-center bg-gray-900 p-5">
       <Text className="text-4xl font-bold text-white mb-8">Welcome Back!</Text>
       <TextInput
         placeholder="Enter your email"
