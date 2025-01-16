@@ -1,12 +1,14 @@
+// Firebase Authentication
+import { View } from 'react-native';
 import React from 'react';
-import MyLogin from './src/components/MyLogin';
-import { SafeAreaView } from 'react-native';
-import "./global.css"
-import AnimatedCardFlip from './src/components/AnimatedCardFlip';
+import Register from './src/components/Register';
+import "./global.css";
 
 const App = () => {
   return (
-    <AnimatedCardFlip />
+    <View className="flex-1">
+      <Register />
+    </View>
   );
 };
 
