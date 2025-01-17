@@ -4,7 +4,7 @@ import React from 'react';
 const Example = () => {
   return (
     <View>
-      <Text style={{textAlign: 'center', color: 'white', fontSize: 20, marginVertical: 15}}>Example</Text>
+      <Text style={{color: 'white', fontSize: 20, marginVertical: 15}}>Example</Text>
     </View>
   );
 };
